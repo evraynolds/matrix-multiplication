@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="root">
+      <section id="main">
+        <h1>Matrix Multiplicatiom</h1>
+        <h3>
+          <ul>
+            <li>size fixed at 2x2</li>
+            <li>Limit to 0-9 for each position</li>
+          </ul>
+        </h3>
+        <section class="matrices-container">
+          <table class="matrix-one">
+            <tr>
+              <td>
+                <input
+                  class="matrix-one-entry"
+                  type="number"
+                  name="matrix[0][0]"
+                  value="2"
+                />
+              </td>
+              <td>
+                <input
+                  value="4"
+                  class="matrix-one-entry"
+                  type="number"
+                  name="matrix[0][1]"
+                />
+              </td>
+              <td>
+                <input
+                  value="8"
+                  class="matrix-one-entry"
+                  type="number"
+                  name="matrix[0][2]"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input
+                  value="0"
+                  class="matrix-one-entry"
+                  type="number"
+                  name="matrix[1][0]"
+                />
+              </td>
+              <td>
+                <input
+                  value="4"
+                  class="matrix-one-entry"
+                  type="number"
+                  name="matrix[1][1]"
+                />
+              </td>
+              <td>
+                <input
+                  value="3"
+                  class="matrix-one-entry"
+                  type="number"
+                  name="matrix[1][2]"
+                />
+              </td>
+            </tr>
+          </table>
+          <span class="x">X</span>
+          <table class="matrix-two">
+            <tr>
+              <td>
+                <input
+                  value="6"
+                  class="matrix-two-entry"
+                  type="number"
+                  name="matrix[0][0]"
+                />
+              </td>
+              <td>
+                <input
+                  value="9"
+                  class="matrix-two-entry"
+                  type="number"
+                  name="matrix[0][1]"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input
+                  value="6"
+                  class="matrix-two-entry"
+                  type="number"
+                  name="matrix[1][0]"
+                />
+              </td>
+              <td>
+                <input
+                  value="2"
+                  class="matrix-two-entry"
+                  type="number"
+                  name="matrix[1][1]"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input
+                  value="1"
+                  class="matrix-two-entry"
+                  type="number"
+                  name="matrix[2][0]"
+                />
+              </td>
+              <td>
+                <input
+                  value="7"
+                  class="matrix-two-entry"
+                  type="number"
+                  name="matrix[2][1]"
+                />
+              </td>
+            </tr>
+          </table>
+        </section>
+        <button id="calculate">Calculate</button>
+      </section>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+.matrices-container {
+  display:flex;
+}
+.matrix {
+  display: flex;
+  flex-direction: column;
+}
+.x {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; 
+}
+.matrices-container input {
+  width: 50px;
+}
